@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<style>
+
+
+body{
+ 
+  background-image: url(images/logincover.jpg);
+  background-repeat: no-repeat;
+}
+
+.navigationofmovies{
+    display: flex;
+    width: 100%;
+    
+     height: 70px;
+       background: #333545;
+       
+      margin-top: -10px;
+       padding :5px 6px;
+       margin-left: -6px;
+       justify-content: space-between;
+       opacity:0.8;
+       
+       
+       
+       
+    }
+    
+    #title1{
+    
+    display: flex;
+    font-size: 34px;
+    padding :27px 0px;
+    color: white;
+
+    
+    }
+
+    #title1 img{
+    width: 50px;
+    height: 50px;
+}
+#content1 p{
+         
+         font-size:2.0rem;
+         color: white;
+  }
+ .logincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+ }
+
+ .login1{
+    
+     width: 530px;
+     background-color: #4a304d;
+     border-radius: 10px;
+     opacity: 0.9;
+     
+ }
+
+ .loginoptions{
+    display: flex;
+   justify-content: space-evenly;
+   margin-top: 45px;
+ }
+ 
+ .google{
+    width: 200px;
+    height: 50px;
+    background-color: #56385a;
+     display: flex;
+   
+     justify-content: center;
+    
+     
+     
+ }
+ .fb{
+    width: 200px;
+     height: 50px;
+    display: flex;
+    background-color: #56385a;
+    justify-content: center;
+  
+
+ }
+  .google img{
+    padding-top: 15px;
+    margin-right: 5px;
+  }
+  .fb img{
+    padding-top: 8px;
+    margin-right: 5px;
+  }
+  .loginforms{
+    display: flex;
+    flex-direction: column;
+     
+  }
+
+  input[type=email] {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+  input[type=password] {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+#forms{
+    margin-left: 38px;
+}
+#forms p{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color:#ffb37b;
+    font-weight: bold;
+    
+}
+.google p{
+   
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 12px;
+    color:#ffb37b;
+    font-weight: bold;
+   
+}
+.fb p{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 12px;
+    color:#ffb37b;
+    font-weight: bold;
+    
+}
+
+.logbut{
+
+    width: 450px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+.loginbutton{
+    margin-top: 35px;
+    margin-bottom:30px;
+}
+  
+input[type="submit"] {
+    width: 450px;
+  background: #ffb37b;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  font-size: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+  color:  black;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+</style>
+
+
+
+
+
+<body>
+    
+
+    <nav class="navigationofmovies">
+        <div id="content1"><p>Login</p></div>
+        
+        <div id="title1">
+            <div>Ticket</div>
+            <img src="images/logo.ico">
+            <div>Flick</div>
+    </div>
+    
+    </nav>
+    
+
+
+
+
+
+ <div class="logincontainer">
+
+  <div class="login1">
+    <div class="loginoptions">
+        <div class="google">
+            <img src="images/google icon.png" width="20px" height="20px">
+            <div><p >Google</p></div>
+        </div>
+
+            <div class="fb">
+                <img src="images/fb icon.png"  width="40px" height="35px">
+                <div><p >Facebook</p></div>
+                
+        </div>
+    </div>
+
+
+       <div class="loginforms">
+
+        <div><p style="text-align:center;  color:#ffb37b; font-weight: bold;">Or</p></div>
+        <div id="forms">
+        <div><p>Email</p><div>
+    
+        <input type="email" placeholder="Enter Your Email" name="myemail" >
+
+        <div><p>Password</p><div>
+    
+            <input type="password" placeholder="Password" name="mypass" >
+
+
+          <input type="submit" placeholder="LOG IN" name="login">
+
+
+
+
+        </div>
+
+
+
+         
+
+
+
+       </div>
+      
+
+   
+  </div>
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
